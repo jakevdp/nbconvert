@@ -26,6 +26,7 @@ from IPython.utils.traitlets import List, Unicode, Type, Bool, Dict, CaselessStr
 from converters.html import ConverterHTML
 from converters.markdown import ConverterMarkdown
 from converters.bloggerhtml import ConverterBloggerHTML
+from converters.bloggerhtml import ConverterBloggerHTMLSeparate
 from converters.rst import ConverterRST
 from converters.latex import ConverterLaTeX
 from converters.python import ConverterPy
@@ -44,6 +45,7 @@ converters = {
     'markdown': ConverterMarkdown,
     'html': ConverterHTML,
     'blogger-html': ConverterBloggerHTML,
+    'blogger-html-separate': ConverterBloggerHTMLSeparate,
     'latex': ConverterLaTeX,
     'pdf' : ConverterLaTeXToPDF,
     'py': ConverterPy,

@@ -15,7 +15,7 @@ and defines the API relied upon by the `nbconvert` tool.
 
 from .html import ConverterHTML
 from .markdown import ConverterMarkdown
-from .bloggerhtml import ConverterBloggerHTML
+from .bloggerhtml import ConverterBloggerHTML, ConverterBloggerHTMLSeparate
 from .rst import ConverterRST
 from .latex import ConverterLaTeX
 from .python import ConverterPy
